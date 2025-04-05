@@ -296,7 +296,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/Titleist.JPG") center center;
+  background: url("../img/edinburgh.jpeg") center center;
   background-size: cover;
   position: relative;
 }
@@ -585,7 +585,7 @@ section {
 }
 
 .about .image {
-  background: url("../img/PataYoda.JPG") bottom center no-repeat;
+  background: url("../img/macdonald.jpeg") bottom center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
