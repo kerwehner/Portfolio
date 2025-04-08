@@ -743,7 +743,7 @@ section {
 }
 
 .services .description {
-  font-size: 10px;
+  font-size: 16px;
   line-height: 28px;
   margin-bottom: 0;
 }
@@ -964,47 +964,83 @@ section {
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
+  width: 8px;
+  height: 8px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #ffb727;
+  border: .5px solid #ffb727;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #ffb727;
 }
 
-.portfolio-details .portfolio-info {
-  padding: 30px;
-  box-shadow: 0px 0 30px rgba(59, 67, 74, 0.08);
+.portfolio-details-slider {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000000;
+  border: 2px solid #ffb727;
+  box-sizing: border-box;
 }
+
+
+.portfolio-details .portfolio-info {
+  padding: 10px;
+  margin-bottom: 20px; /* Adds space between boxes */
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Stronger shadow */
+  border-top: 2px solid #ffb727;
+  border-bottom: 2px solid #ffb727;
+}
+
 
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
   font-weight: 700;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: .75px solid #353434;
 }
 
 .portfolio-details .portfolio-info ul {
   list-style: none;
   font-size: 12px;
+  padding: 10px;
 }
 
 .portfolio-details .portfolio-info li {
   list-style: none;
-  padding: 0;
-  font-size: 15px;
+  padding: 10px;
+  font-size: 12px;
 }
 
 .portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
 }
 
-.portfolio-details .portfolio-description {
+.portfolio-info.python-overview ul {
+  font-size: 14px;
+  padding: 12px;
+}
+
+.portfolio-info.python-overview li {
+  font-size: 14px;
+  padding: 1px 0;
+}
+
+
+.portfolio-details .portfolio-description li {
   padding-top: 30px;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
 }
 
 .portfolio-details .portfolio-description h2 {
@@ -1016,6 +1052,16 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+
+.portfolio-caption-box {
+  background-color: #f9f9f9;
+  padding: 20px 30px;
+  font-size: 11px;
+  color: #444;
+  box-shadow: 10px 0 15px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
 
 /*--------------------------------------------------------------
 # Pricing
