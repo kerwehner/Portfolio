@@ -743,9 +743,14 @@ section {
 }
 
 .services .description {
-  font-size: 15px;
+  font-size: 10px;
   line-height: 28px;
   margin-bottom: 0;
+}
+
+.services .description a {
+  padding-bottom: 10px;
+  font-size: 12px;
 }
 
 .services .icon-box:hover {
@@ -984,6 +989,11 @@ section {
 }
 
 .portfolio-details .portfolio-info ul {
+  list-style: none;
+  font-size: 12px;
+}
+
+.portfolio-details .portfolio-info li {
   list-style: none;
   padding: 0;
   font-size: 15px;
