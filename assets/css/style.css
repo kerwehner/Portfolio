@@ -1021,6 +1021,7 @@ section {
 
 .portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
+  font-size: 12px;
 }
 
 .portfolio-info.python-overview ul {
@@ -1051,6 +1052,8 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+  font-size: 12px;
+  font-weight: 400;
 }
 
 .portfolio-caption-box {
