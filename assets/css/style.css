@@ -956,6 +956,9 @@ section {
 
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
@@ -980,12 +983,30 @@ section {
   border-radius: 8px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
   padding: 10px;
+  height: 700px;
   margin: 0;
   overflow: hidden;
   background-color: #000000;
   border: 2px solid #ffb727;
   box-sizing: border-box;
+  position:relative;
 }
+
+.portfolio-details-slider .swiper-button-next,
+.portfolio-details-slider .swiper-button-prev {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  color: #ffb727;
+  width: 44px;
+  height: 44px;
+}
+
+.portfolio-details-slider .swiper-button-next::after,
+.portfolio-details-slider .swiper-button-prev::after {
+  font-size: 20px;   /* try 16–20px */
+  font-weight: bold;
+}
+
 
 
 .portfolio-details .portfolio-info {
@@ -1057,12 +1078,12 @@ section {
 }
 
 .portfolio-caption-box {
-  background-color: #f9f9f9;
+  background-color: #dbdada;
   padding: 20px 30px;
   font-size: 11px;
   color: #444;
   box-shadow: 10px 0 15px rgba(0, 0, 0, 0.05);
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
 

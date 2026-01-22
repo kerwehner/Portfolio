@@ -38,7 +38,7 @@
       <ul>
         <li><a class="nav-link scrollto" href="../index.html">Home</a></li>
           <ul>
-        <li><a class="nav-link scrollto" href="/#contact">Contact</a></li>
+        <li><a class="nav-link scrollto" href="../index.html#contact">Contact</a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav><!-- .navbar -->
@@ -52,10 +52,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Data Visualization</h2>
+          <h2>Performance Analytics</h2>
           <ol>
             <li><a href="/#hero">Home</a></li>
-            <li><a href="datavisualization.html">Data Visualization</a></li>
+            <li><a href="PerformanceAnalytics.html">Performance Analytics</a></li>
           </ol>
         </div>
 
@@ -68,20 +68,38 @@
 
         <div class="row gy-4">
 
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper-container">
-              <div class="swiper-wrapper align-items-center">
+      <!-- Image Slider (Left Column) -->
+      <div class="col-lg-8">
+        <div class="portfolio-details-slider swiper">
+          
 
+              <!-- Navigation arrows -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <!-- Slides -->
+          <div class="swiper-wrapper align-items-center">
                 <div class="swiper-slide">
-                  <img src="../assets/img/pythondash.png" alt="">
+                  <img src="../assets/img/playerinjury.png" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="../assets/img/samdash.png" alt="">
+                  <img src="../assets/img/injurydf.png" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="../assets/img/dataflow.png" alt="">
+                  <img src="../assets/img/injurybyweight.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="../assets/img/rehab.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="../assets/img/injurytypes.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="../assets/img/injurybyage.png" alt="">
                 </div>
 
               </div>
@@ -91,22 +109,20 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info">
-              <h3>Salesman Scorecard</h3>
+              <h3>Injury & Rehabilitation Analysis</h3>
               <ul>
-                <li><strong>Category</strong>: Power BI</li>
-                <li><strong>Client</strong>: MKC</li>
-                <li><strong>Project date</strong>: 2024/2025</li>
+                <li><strong>Tools</strong>: Pandas, Jupyter Notebook, Matplotlib</li>
+                <li><strong>Project date</strong>: January 2026</li>
               </ul>
             </div>
             <div class="portfolio-description">
               <p>
-              I built and maintained the Salesman Scorecard for four departments at MKC, delivering a Power BI dashboard with year-over-year sales and row-level security so each salesman could securely track their performance. Behind the scenes, I designed ETL pipelines to integrate and transform data, and developed a C# solution in Visual Studio to connect our new CRM’s API, creating the relationships between salesmen and customers that drove accurate incentive tracking.
+              This analysis explores how injury types, rehabilitation programs, and biomechanical traits interact to shape an athlete’s recovery journey. The visualizations highlight patterns in injury frequency, the impact of severity on rehab time, and the physical attributes, like jump height and knee angle, that tend to support faster lower‑limb recovery. By comparing rehab efficiency with biomechanical metrics, the project reveals how strengths, vulnerabilities, and training opportunities emerge across a roster. 
               </p>
             </div>
           </div>
 
         </div>
-
       </div>
     </section>
     <!-- End Portfolio Details Section 1 -->
@@ -117,20 +133,30 @@
 
         <div class="row gy-4">
 
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper-container">
-              <div class="swiper-wrapper align-items-center">
+      <!-- Image Slider (Left Column) -->
+      <div class="col-lg-8">
+        <div class="portfolio-details-slider swiper">
+          
 
+              <!-- Navigation arrows -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <!-- Slides -->
+          <div class="swiper-wrapper align-items-center">
                 <div class="swiper-slide">
-                  <img src="../assets/img/fueldash.png" alt="">
+                  <img src="../assets/img/nwslstats.png" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="../assets/img/fuelprices.png" alt="">
+                  <img src="../assets/img/nwslteamstats.png" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="../assets/img/fuelrelationships.png" alt="">
+                  <img src="../assets/img/nwslgoals.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="../assets/img/goalconversion.png" alt="">
                 </div>
 
               </div>
@@ -140,16 +166,14 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info">
-              <h3>Fuel Dashboard</h3>
+              <h3>National Women's Soccer League Assessment</h3>
               <ul>
-                <li><strong>Category</strong>: Power BI</li>
-                <li><strong>Client</strong>: MKC</li>
-                <li><strong>Project date</strong>: 2023/2024</li>
+                <li><strong>Tools</strong>: Kaggle, Pandas, Jupyter Notebook</li>
+                <li><strong>Project date</strong>: October 2025</li>
               </ul>
             </div>
             <div class="portfolio-description">
-              <p>I built a dashboard for the fuel department that tracks average prices of diesel and gas, showing which locations are charging what and how many gallons are sold at each site across fiscal years. To support this, I designed the underlying Power BI data model and created an item cross-reference system to unify products that were labeled differently across companies, ensuring accurate comparisons despite data silos.
-              </p>
+              <p>This project examines team-level performance in the National Women’s Soccer League (NWSL) across the 2018 and 2021 seasons using publicly available Kaggle datasets. The analysis focuses on core attacking and efficiency metrics, including shots on goal per match, goal conversion rate, assists per goal, corner kick frequency, and year-over-year performance changes. Interactive visualizations surface patterns in offensive style, finishing efficiency, and tactical development over time. The resulting insights are designed to be immediately actionable for coaches, analysts, and performance strategists seeking data-informed decision-making.
             </div>
           </div>
 
@@ -176,7 +200,6 @@
         &copy; Copyright <strong><span>Kerry Wehner</span></strong>
       </div>
       <div class="credits">
- 
         Designed by Kerry Wehner
       </div>
     </div>
