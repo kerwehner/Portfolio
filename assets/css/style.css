@@ -598,7 +598,8 @@ section {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 300px; /* reasonable mobile height */
+  min-height: 120px; /* reasonable mobile height */
+  max-height: 120px;
 }
 
 /* Desktop layout */
@@ -959,20 +960,23 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
+
 .portfolio-details {
   padding-top: 40px;
 }
 
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
-  height: 100%;
-  object-fit: contain;
+  height: auto;        /* Let height follow the image's natural ratio */
+  object-fit: cover;   /* Fill the container without letterboxing */
   display: block;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
+/* Also target the slider/swiper container if it has a fixed height */
+.portfolio-details .portfolio-details-slider,
+.portfolio-details .portfolio-details-slider .swiper-wrapper,
+.portfolio-details .portfolio-details-slider .swiper-slide {
+  height: auto !important;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
